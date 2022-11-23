@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+    background-color: rgb(124, 130, 130);
+    font-family: "宋体","微软雅黑";
+    list-style-type:none;
+}
+div{
+    border: 2px solid red;
+    
+}
