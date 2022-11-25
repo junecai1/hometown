@@ -1,76 +1,38 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>无标题文档</title>
-<style>
-	*{
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-	nav{
-		display:inline-block;
-	}
-	
-	a{
-		text-decoration: none;
-		color:red;
-	}
-/*
-	nav ul {
-		display: inline-block;
-	}
-*/
-	li ul{
-		visibility: hidden;
-	}
-	</style>
+	<meta charset="utf-8">
+	<title>无标题文档</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 
 <body>
 	<div class="box">
 		<header>
-<!--
+			<!--	nav>(li>a{首页}+li>a{史海钩沉}>(ul.LS>(li>a)*3))+(li>ul.FJ>(li>a))*3+li>a{籍籍无名的作者}-->
 			<nav>
-				<li>首&nbsp;&nbsp;页</li>
-				<li>史海钩沉</li>
-					<ul>
-						<li>断&nbsp;&nbsp;渠</li>
-						<li>禹王宫</li>
-						<li>截贤驿</li>
-					</ul>
-				<li>风景名胜</li>
-				<ul>
-					<li>光雾山</li>
-					<li>诺水河</li>
-					<li>十八月潭</li>
-					</ul>
-				<li>籍籍无名的作者</li>
-			</nav>
--->
-<!--	nav>(li>a{首页}+li>a{史海钩沉}>(ul.LS>(li>a)*3))+(li>ul.FJ>(li>a))*3+li>a{籍籍无名的作者}-->
-	<nav>
-		<li><a href="">首页</a></li>
-		<li><a href="">史海钩沉</a>
+				<li><a href="">首页</a></li>
+				<li><a href="">史海钩沉</a>
 					<ul class="LS">
-					<li><a href="">断&nbsp;&nbsp;渠</a></li>
-					<li><a href="">禹王宫</a></li>
-					<li><a href="">截贤驿</a></li>
+						<li><a href="">断&nbsp;&nbsp;渠</a></li>
+						<li><a href="">禹王宫</a></li>
+						<li><a href="">截贤驿</a></li>
 					</ul>
-			</li>
-		
-		<li>
-			<ul class="FJ">
-				<li><a href="">光雾山</a></li>
-				<li><a href="">诺水河</a></li>
-				<li><a href="">十八月潭</a></li>
-				</ul>
-		</li>
-		<li><a href="">籍籍无名的作者</a></li>
-	</nav>
+				</li>
+
+				<li>
+					<ul class="FJ">
+						<li><a href="">光雾山</a></li>
+						<li><a href="">诺水河</a></li>
+						<li><a href="">十八月潭</a></li>
+					</ul>
+				</li>
+				<li><a href="">籍籍无名的作者</a></li>
+			</nav>
 		</header>
 	</div>
 </body>
+
 </html>
