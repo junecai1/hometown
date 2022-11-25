@@ -1,11 +1,11 @@
-<div class="banner">
-				<div id="banner">
-					<div id="banner_bg"></div>
+<div class="pic">
+				<div id="pic">
+					<div id="pic_bg"></div>
 					<!--图像序号背景-->
-					<a href="#" id="banner_info"></a>
+					<a href="#" id="pic_info"></a>
 					<!--图像序号-->
 					<ul id="list"></ul>
-					<div id="banner_list">
+					<div id="pic_list">
 						<a href="#" target="_blank"><img src="images/光雾山.jpg" alt="光雾山" /></a>
 						<a href="#" target="_blank"><img src="images/断渠公园.jpg" alt="断渠公园" /></a>
 						<a href="#" target="_blank"><img src="images/茶.jpg" alt="云顶茶山" /></a>

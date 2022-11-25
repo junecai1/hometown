@@ -19,16 +19,22 @@ a{
 } */
 
 
-/*清除原样式*/
+/*初始化*/
 * {
     margin: 0px;
     padding: 0px;
     border: 0px;
 }
-body{
+
+body {
     background-color: #ccc;
+    background-image: url(../images/box_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center -250px;
+    background-attachment: fixed;
 
 }
+
 ul {
     list-style: none;
 }
@@ -36,29 +42,40 @@ ul {
 a {
     text-decoration: none;
 }
-header{
+
+header {
     background-color: white;
-   text-align: center;
+    text-align: center;
 }
-/*一级菜单样式*/
+
+
 #nav {
     width: auto;
     height: 125px;
     margin: 0px auto;
     background: white;
-    font-size:20px;
+    font-size: 20px;
     font-weight: 900;
     font-family: 宋体;
 }
-.banner{
+
+.banner {
     width: 100%;
     height: 100px;
     text-align: left;
+    background-image: url(../images/我.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 110px;
+    background-position: left top;
 }
-.banner img{
+
+/* 
+banner img {
     width: auto;
-    height: 100px;
-}
+    height: 110px;
+
+} */
+
 #nav ul li {
     display: inline-block;
     width: 160px;
@@ -78,17 +95,19 @@ header{
     text-align: center;
     color: black;
 }
-.bottom{
+
+.bottom {
     width: 160px;
     height: 5px;
     background-color: #cd0600;
 }
+
 #nav ul li a:hover {
     color: #cd0600;
     background: transparent;
 }
 
-/*二级菜单样式*/
+
 #nav ul li ul {
     position: absolute;
     /* margin-top: 15px; */
@@ -98,8 +117,9 @@ header{
 }
 
 #nav ul li ul li {
+    border: 1px solid rgba(0, 0, 0, 0.10);
     float: none;
-    background-color: rgb(219, 59, 59);
+    /* background-color: rgb(219, 59, 59); */
 }
 
 #nav ul li ul li a {
@@ -107,7 +127,43 @@ header{
     border-top: 1px solid #ccc;
 }
 
-/*一级菜单悬停时二级菜单可见*/
+
 #nav ul li:hover ul {
     display: block;
+}
+
+.content {
+    border: slategrey solid 1px;
+    border-radius: 10px;
+    margin: 20px 10px 10px 0;
+    width: auto;
+    height: 500px;
+}
+
+.content .intro {
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 500px;
+    float: left;
+    text-indent: 2em;
+    text-align: justify;
+    font-family: 宋体;
+    font-size: 20px;
+    /* border: solid #878282 2px; */
+    border-radius: 30px 10px ;
+    margin: 25px;
+}
+.content .intro p{
+    padding:0 25px;
+}
+#first{
+    padding-top: 15px;
+}
+#last{
+    padding-bottom: 15px;
+}
+.content .img{
+    margin: 25px;
+    float: right;
+    height: auto;
+    width: 60%;
 }
